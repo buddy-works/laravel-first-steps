@@ -24,7 +24,7 @@ class MyFirstFutureTest extends TestCase
         );
         $response = $this->post('/calc', $array);
         $response->assertStatus(200);
-        $response->assertSee("don&#039;t divide by zero");
+        $response->assertSee("don&#039;t divide by by zero");
     }
 
 }
